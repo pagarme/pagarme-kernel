@@ -1,0 +1,15 @@
+# pagarme-kernel
+
+Pagar.me custom ArchLinux kernel for use in AWS
+
+## Modifications
+
+- Enabled CONFIG_AUDIT to be able to use auditd
+- Enabled Ubuntu customizations for increasing performance in AWS (https://insights.ubuntu.com/2017/04/05/ubuntu-on-aws-gets-serious-performance-boost-with-aws-tuned-kernel/)
+
+
+## Instructions
+
+Install *abs* and *base-devel*, then simply run *make*.
+
+The lastest Kernel version available in the repositories will be built. After that, simply install the generated package with pacman -U.
