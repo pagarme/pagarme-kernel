@@ -10,6 +10,6 @@ Pagar.me custom ArchLinux kernel for use in AWS
 
 ## Instructions
 
-Install *abs* and *base-devel*, then simply run *make*.
+Install *asp* and *base-devel*, then simply run *make*.
 
 The lastest Kernel version available in the repositories will be built. After that, simply install the generated package with pacman -U.
